@@ -66,10 +66,10 @@ pwareaEl.appendChild(form);
 pwareaEl.appendChild(button1);
 pwareaEl.appendChild(button2);
 
-body.setAttribute("style", "text-align: center")
+body.setAttribute("style", "margin: auto; text-align: center")
 h1El.setAttribute("style", "margin:auto; width:50%; text-align:center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
 h2El.setAttribute("style", "margin:auto; width:100%; text-align:left; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-contentEl.setAttribute("style", "padding: 30px; background: green; align:left font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+contentEl.setAttribute("style", "margin:auto; padding: 30px; background: green; align:left font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
 
 lowerboxEl.setAttribute("type", "checkbox");
 upperboxEl.setAttribute("type", "checkbox");
@@ -78,15 +78,15 @@ specboxEl.setAttribute("type", "checkbox");
 inlengEl.setAttribute("type", "text;");
 inlengEl.size = 3;
 
-lowerboxLab.setAttribute("style", "padding: 10px; margin: 10px; font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-upperboxLab.setAttribute("style", "padding: 10px; margin: 10px; font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-numboxLab.setAttribute("style", "padding: 10px; margin: 10px; font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-specboxLab.setAttribute("style", "padding: 10px; margin: 10px; font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-inlengLab.setAttribute("style", "padding: 10px; margin: 10px; font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+lowerboxLab.setAttribute("style", "font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+upperboxLab.setAttribute("style", "font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+numboxLab.setAttribute("style", "font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+specboxLab.setAttribute("style", "font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+inlengLab.setAttribute("style", "font-color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
 
-pwareaEl.setAttribute("style", "padding: 20px; font-color: white; background: green; align:left font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
+pwareaEl.setAttribute("style", "margin: auto; font-color: white; background: green; align:left font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
 button1.setAttribute("style", "margin: 10px; color: white; background-color: black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
-form.setAttribute("style", "padding-top: 100px; border: 3px dashed white; height: 150px; width: 400px; color: white; margin: auto; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;")
+form.setAttribute("style", "border: 3px dashed white; height: auto; width: auto; color: white; margin: auto; padding: 20px; text-align: center; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;")
 button2.setAttribute("style", "margin: 10px; color: white; background-color: black; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;");
 
 // responsive design
