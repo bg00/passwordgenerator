@@ -1,0 +1,26 @@
+{
+  "name": "passwordgenerator",
+  "version": "1.0.0",
+  "description": "AS AN employee with access to sensitive data",
+  "main": "index.js",
+  "dependencies": {
+    "acorn": "^7.1.1",
+    "eslint": "^6.6.0",
+    "jshint": "^2.10.2",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bg00/passwordgenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bg00/passwordgenerator/issues"
+  },
+  "homepage": "https://github.com/bg00/passwordgenerator#readme"
+}
